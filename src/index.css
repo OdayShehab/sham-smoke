@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-display: 'Syne', sans-serif;
+    --font-arabic: 'Amiri', serif;
+  }
+
+  body {
+    background-color: #0B0B0C;
+    color: #F7F4EF;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-arabic {
+  font-family: var(--font-arabic);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0D0D0E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #26262B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9B2226;
+}
+
+/* Dark Editorial Lighting & Glassmorphism Effects */
+.glass-panel {
+  background: rgba(18, 18, 20, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.glass-panel-hover:hover {
+  border-color: rgba(155, 34, 38, 0.4);
+  box-shadow: 0 10px 30px -10px rgba(155, 34, 38, 0.25);
+}
+
+.glow-ember {
+  box-shadow: 0 0 40px -10px rgba(155, 34, 38, 0.35);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #F7F4EF 0%, #D4AF37 50%, #C5A059 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-ember {
+  background: linear-gradient(135deg, #F7F4EF 30%, #E63946 70%, #9B2226 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Noise overlay */
+.bg-noise {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 0);
+  background-size: 24px 24px;
+}
