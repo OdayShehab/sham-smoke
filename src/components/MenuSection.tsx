@@ -121,7 +121,7 @@ export const MenuSection: React.FC<MenuSectionProps> = ({ onSelectDish }) => {
                 {/* Key Taste Notes Pills */}
                 <div className="flex flex-wrap gap-1.5 mb-4 sm:mb-6 mt-auto">
                   {item.tasteNotes.slice(0, 3).map((note) => (
-                    <span key={note} className="text-[9px] sm:text-[10px] font-mono text-zinc-500 bg-zinc-900 px-2 py-0.5 sm:py-1 rounded border border-zinc-800">
+                    <span key={note} className="text-[9px] sm:text-[10px] font-mono text-zinc-300 bg-zinc-900 px-2 py-0.5 sm:py-1 rounded border border-zinc-700">
                       • {note}
                     </span>
                   ))}

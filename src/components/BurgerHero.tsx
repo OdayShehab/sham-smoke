@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { useScrollVideo } from '../hooks/useScrollVideo';
 import { ArrowDown, Flame, ChevronDown } from 'lucide-react';
-import burgerVideoUrl from '../assets/burger_deconstruction.mp4';
+import burgerVideoUrl from '../assets/burger_compressed.mp4';
 
 interface BurgerHeroProps {
   onExploreMenu: () => void;

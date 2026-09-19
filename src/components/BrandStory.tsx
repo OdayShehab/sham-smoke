@@ -58,14 +58,14 @@ export const BrandStory: React.FC = () => {
           <div className="space-y-4">
             <div className="h-64 rounded-xl overflow-hidden border border-zinc-800 bg-black shadow-2xl">
               <img
-                src="/assets/images/shawarma.png"
+                src="/assets/images/shawarma.webp"
                 alt="Syrian Shawarma Craft"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
             </div>
             <div className="p-6 bg-[#141418] border border-zinc-800 rounded-xl text-left space-y-2">
               <ShieldCheck className="w-6 h-6 text-[#9B2226]" />
-              <h4 className="font-display font-bold text-sm text-white uppercase">Pure Ingredients</h4>
+              <h3 className="font-display font-bold text-sm text-white uppercase">Pure Ingredients</h3>
               <p className="text-xs text-zinc-400 font-light">Zero artificial preservatives, pure cold-pressed extra virgin olive oil and stone-ground sesame.</p>
             </div>
           </div>
@@ -73,12 +73,12 @@ export const BrandStory: React.FC = () => {
           <div className="space-y-4 pt-8">
             <div className="p-6 bg-[#141418] border border-zinc-800 rounded-xl text-left space-y-2">
               <Award className="w-6 h-6 text-[#D4AF37]" />
-              <h4 className="font-display font-bold text-sm text-white uppercase">Wood Fire Charcoal</h4>
+              <h3 className="font-display font-bold text-sm text-white uppercase">Wood Fire Charcoal</h3>
               <p className="text-xs text-zinc-400 font-light">Natural Syrian oak hardwood delivers intense smoky crust without overpowering delicate spice notes.</p>
             </div>
             <div className="h-64 rounded-xl overflow-hidden border border-zinc-800 bg-black shadow-2xl">
               <img
-                src="/assets/images/burger.png"
+                src="/assets/images/burger.webp"
                 alt="Flame Sujuk Burger"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
